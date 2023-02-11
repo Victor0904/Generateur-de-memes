@@ -1,0 +1,58 @@
+body{
+  background-color: burlywood;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 80vh;
+  height: auto;
+}
+.but{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn {
+  width: 30vh;
+  height: 10vh;
+  font-family: Roboto, sans-serif;
+  font-weight: 100%;
+  font-size: 50px;
+  color: #fff;
+  background-color: #1e3842;
+  padding: 10px 30px;
+  border: solid #243238 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #1e3842;
+  border: solid 2px #1e3842;
+}
+
+@media only screen and (max-width: 790px) {
+img {
+    width: 40vh;
+    height: auto;
+  }
+
+}
